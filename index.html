@@ -40,7 +40,7 @@
       };
     </script>
 
-    <!-- todo ========== Custom CSS ========== -->
+<!-- todo ========== Custom CSS ========== -->
     <style>
       .font-manrope {
         font-family: "Manrope", sans-serif;
@@ -67,12 +67,11 @@
           </div>
           <!-- todo right side -->
           <div>
-            <img
-              src="images/banner.png"
-              class="max-w-sm"
-            />
+            <img src="images/banner.png" class="max-w-sm" />
             <!-- todo rating badge -->
-            <div class="flex items-center gap-4  drop-shadow-lg bg-white p-5 w-60 -mt-16">
+            <div
+              class="flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 -mt-16"
+            >
               <i class="fa-solid fa-star text-3xl text-[#FFC850]"></i>
               <div>
                 <h3 class="text-3xl font-extrabold">5.00</h3>
@@ -85,6 +84,77 @@
     </header>
 
     <!-- todo ========== Main Container ========== -->
+    <main class="container mx-auto">
+      <!-- TODO: Featured Section -->
+      <section class="text-center my-24">
+        <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+        <p class="font-medium lg:max-w-3xl mx-auto gap-12 ">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- TODO: All Featured Cards container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- todo first card -->
+          <div class="card bg-base-100   p-8    bg-gray-200">
+            <figure >
+              <img
+                src="images/tea-1.png"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+              <p class="font-semibold">Creamer could be replaced by fresh milk</p>
 
+            </div>
+          </div>
+
+          <!-- todo second card -->
+          <div class="card bg-base-100   p-8    bg-gray-200">
+            <figure >
+              <img
+                src="images/tea-2.png"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-extrabold">Black Tea</h2>
+              <p class="font-semibold">Creamer could be replaced by fresh milk</p>
+
+            </div>
+          </div>
+          <!-- todo third card -->
+          <div class="card bg-base-100   p-8     bg-gray-200">
+            <figure >
+              <img
+                src="images/tea-3.png"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
+              <p class="font-semibold">Creamer could be replaced by fresh milk</p>
+
+            </div>
+          </div>
+          <!-- todo fourth card -->
+          <div class="card bg-base-100   p-8    bg-gray-200">
+            <figure >
+              <img
+                src="images/tea-4.png"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-extrabold">Green Tea</h2>
+              <p class="font-semibold">Creamer could be replaced by fresh milk</p>
+
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </main>
   </body>
 </html>
